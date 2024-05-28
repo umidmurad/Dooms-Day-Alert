@@ -1,0 +1,27 @@
+.body {
+  height: 100vh;
+  margin: 0;
+  background-color: #eeeeee;
+  color: #393e46;
+  font-style: bold;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15rem;
+}
+
+.img {
+  margin-right: 20px;
+  border-radius: 100px;
+}
+
+.imgme {
+  margin-right: 40px;
+}
+
+.h3 {
+  margin: 5px;
+}

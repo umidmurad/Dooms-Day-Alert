@@ -1,0 +1,35 @@
+.teamheader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.teamlinks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  font-size: 18px;
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+.h3 {
+  margin: 5px;
+}
+
+.scroll {
+  overflow: hidden;
+}

@@ -1,0 +1,54 @@
+.bottomRightAlert {
+  position: fixed;
+  bottom: 60px;
+  right: 20px;
+  z-index: 9999;
+  width: auto;
+}
+
+@media (max-width: 576px) {
+  .bottomRightAlert {
+    position: static;
+    width: 100%;
+    margin-top: 10%;
+  }
+}
+
+@media (max-width: 576px) {
+  .bottomRightAlert button {
+    position: static;
+    margin-top: 12%;
+  }
+}
+
+.verticalCarousel .carousel-item {
+  transition: transform 0.6s ease-in-out;
+  transform: translateY(-100%);
+}
+
+.verticalCarousel .carousel-item.active {
+  transform: translateY(0%);
+}
+
+.carouselControl {
+  filter: invert(100%);
+}
+
+.middleRightCloseButton {
+  margin-top: 8px;
+  margin-right: 8px;
+}
+
+strong {
+  margin-right: 20px;
+}
+
+.pGreen {
+  text-align: center;
+  color: green;
+}
+
+.pRed {
+  text-align: center;
+  color: red;
+}

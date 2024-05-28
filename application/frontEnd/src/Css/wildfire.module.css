@@ -1,0 +1,83 @@
+.wildfirePage {
+  padding: 20px 60px 20px 60px;
+}
+
+#cardGroup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#cardGroup > div {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  #cardGroup {
+    flex-direction: row;
+  }
+  #cardGroup > div {
+    margin: 20px;
+    flex: 1;
+  }
+  #cardGroup > div:first-child {
+    min-width: 400px; /* Adjust this value based on the minimum width you want for the map component */
+  }
+}
+
+.checkboxContainer {
+  padding-right: 20px;
+}
+
+#filterDropdown {
+  margin-right: 20px;
+  padding-top: 20px;
+}
+
+#dropDownMenu {
+  padding-left: 10px;
+  margin-top: 10px;
+}
+
+.formCheckLabel {
+  margin-left: 10px;
+}
+
+.searchForm {
+  margin-top: 28px;
+}
+
+.map {
+  width: 100%;
+  height: 500px;
+}
+@media (max-width: 767px) {
+  .map {
+    height: 300px;
+  }
+}
+
+.cardBodyCentered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.wildfireCard {
+  border: 2px solid gray;
+  padding: 5px;
+}
+
+.wildfireCardDiv {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#cardWidth {
+  width: 18rem;
+}

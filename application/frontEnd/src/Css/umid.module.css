@@ -1,0 +1,139 @@
+.body {
+  height: 100%;
+  background-position: bottom;
+  margin: auto;
+  color: #16253f;
+  font-family: Optima, serif;
+  font-size: 1.1em;
+  background-color: rgba(230, 216, 216);
+}
+
+.middle {
+  margin: auto;
+  text-align: center;
+  padding: 6px;
+  color: darkblue;
+}
+
+.gallery {
+  border: 1px solid darkred;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.h2 {
+  text-align: center;
+  color: black;
+}
+
+.p {
+  line-height: 1;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: center;
+  width: 24.99999%;
+  margin: auto;
+  text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The URL page */
+.container {
+  display: flex;
+}
+.container div {
+  flex: 1; /*grow*/
+}
+
+.button {
+  background-color: rgba(227, 207, 207);
+  border: none;
+  color: darkblue;
+  padding: 0px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+}
+.specbutton {
+  text-decoration: none;
+  color: darkslateblue;
+}
+
+.button a:hover {
+  background-color: skyblue; /* grayish hover color*/
+  color: red;
+  font-size: 18px;
+}
+
+/*Bottom part of the website*/
+
+/* Place the navbar at the bottom of the page, and make it stick */
+.navbar {
+  background-color: black;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 50%;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #ff0000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: #fa3d3d; /* grayish hover color*/
+  color: white;
+  font-size: 20px;
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+  background-color: #de1616;
+  color: white;
+}
+
+.manageH1 {
+  text-align: center;
+}

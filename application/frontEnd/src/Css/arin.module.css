@@ -1,0 +1,16 @@
+.body {
+  background-color: aliceblue;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: darkslategrey;
+}
+
+.content {
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+}
+
+.img {
+  border-radius: 10px;
+}

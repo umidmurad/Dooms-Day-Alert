@@ -1,0 +1,16 @@
+.box {
+  display: flex;
+}
+
+.switchButton {
+  padding-top: 10px;
+  padding-right: 20px;
+}
+
+#navLinks {
+  /* padding-left: 60px; */
+}
+
+#privacySenctence {
+  margin: 20px;
+}

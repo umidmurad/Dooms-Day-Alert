@@ -1,0 +1,59 @@
+.weatherPage {
+  padding: 20px 60px 20px 60px;
+}
+
+#cardGroup {
+  margin: 30px;
+}
+
+.checkboxContainer {
+  padding-right: 20px;
+}
+
+#filterDropdown {
+  margin-right: 20px;
+}
+
+#dropDownMenu {
+  padding-left: 10px;
+  margin-top: 10px;
+}
+
+.formCheckLabel {
+  margin-left: 10px;
+}
+
+.card {
+  background-color: #f1f6f9;
+  border-radius: 30px;
+  color: #212a3e;
+  font-family: "Marcellus", serif;
+}
+
+h6 {
+  font-size: 20px;
+  font-family: "Marcellus", serif;
+}
+
+#heading {
+  font-size: 55px;
+  color: #2b304d;
+}
+
+.temp {
+  place-items: center;
+}
+
+.tempDetails > p > span,
+.grey {
+  color: #a3acc1;
+  font-size: 12px;
+}
+
+.fa {
+  color: #a5a5b1;
+}
+
+*:focus {
+  outline: none;
+}
